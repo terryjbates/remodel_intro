@@ -1,0 +1,5 @@
+<ul>
+  {% for ship in ships %}
+  <li><a href="/ship/{{ ship.id }}">{{ ship.name }}</a></li>
+  {% endfor %}
+</ul>
